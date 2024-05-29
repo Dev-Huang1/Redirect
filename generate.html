@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random Word</title>
+</head>
+<body>
+<h1>Random word</h1>
+<button onclick="generateRandomCharacter()">生成</button>
+<p id="result"></p>
+
+<script>
+function generateRandomCharacter() {
+  var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  var result = "";
+  for (var i = 0; i < 7; i++) {
+    var randomIndex = Math.floor(Math.random() * chars.length);
+    result += chars.charAt(randomIndex);
+  }
+  document.getElementById("result").innerHTML = result;
+}
+</script>
+</body>
+</html>
