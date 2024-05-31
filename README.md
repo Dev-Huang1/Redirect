@@ -1,2 +1,2 @@
 # Redirect
-Redirect link for link.xyehr.cn
+Redirect link for l.xyehr.cn
